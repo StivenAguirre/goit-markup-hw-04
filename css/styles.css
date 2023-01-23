@@ -60,6 +60,12 @@ body {
   color: var(--color-text);
 }
 
+#icon-antena-1 {
+  height: 70px;
+  width: 65px;
+  border-radius: 0px;
+}
+
 /* header */
 
 .container {
@@ -149,7 +155,7 @@ body {
 /* Main Section Heroes */
 
 .container-heroes {
-  background-color: var(--background-color-heroes);
+  background-image: url(/images/Imagen.jpg);
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -199,6 +205,21 @@ body {
 .container-indicators {
   padding-top: 95px;
   padding-bottom: 94px;
+}
+
+.box-indicators {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: inline-flex;
+  margin-right: 15px;
+}
+
+#icon-antena-1 {
+  width: 70px;
+  height: 65.32px;
 }
 
 .card-set-indicators {
@@ -251,10 +272,38 @@ body {
   gap: 30px;
 }
 
-.item-dedicate {
+.background {
+  width: 373px;
+  height: 323px;
 }
 
-.images-dedicate {
+.desktop-applications {
+  background-image: url(/images/computablet1.jpg);
+}
+
+.mobile-apps {
+  background-image: url(/images/compucelular2.jpg);
+}
+
+.design-solutions {
+  background-image: url(/images/computablet1.jpg);
+}
+
+.box-dedicate-bottom {
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.text-dedicate {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--background-color-header);
+  padding: 27px 79px;
 }
 
 /* Main Section team */
@@ -288,9 +337,6 @@ body {
   background-color: white;
 }
 
-.images-our-team {
-}
-
 .name-employee {
   color: var(--color-text);
   font-size: 16px;
@@ -309,7 +355,33 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   margin-top: 10px;
-  padding-bottom: 30px;
+}
+
+.icons-our-team {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.instagram-2 {
+  background-color: #2196f3;
+  height: 44px;
+  width: 44px;
+}
+
+.twitter {
+  height: 44px;
+  width: 44px;
+}
+
+.facebook {
+  height: 44px;
+  width: 44px;
+}
+
+.linkedin {
+  height: 44px;
+  width: 44px;
 }
 
 /* page Briefcase*/
