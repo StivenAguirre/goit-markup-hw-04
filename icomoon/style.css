@@ -7,6 +7,10 @@
   fill: currentColor;
 }
 
+body {
+  background-color: bisque;
+}
+
 /* ==========================================
 Single-colored icons can be modified like so:
 .icon-name {

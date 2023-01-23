@@ -361,27 +361,63 @@ body {
   display: flex;
   margin-top: 16px;
   margin-bottom: 30px;
+  justify-content: center;
+  gap: 35px;
+}
+
+.instagram-1 {
+  height: 20px;
+  width: 20px;
 }
 
 .instagram-2 {
   background-color: #2196f3;
-  height: 44px;
-  width: 44px;
+  height: 20px;
+  width: 20px;
 }
 
 .twitter {
-  height: 44px;
-  width: 44px;
+  height: 20px;
+  width: 20px;
 }
 
 .facebook {
-  height: 44px;
-  width: 44px;
+  height: 20px;
+  width: 20px;
 }
 
 .linkedin {
-  height: 44px;
-  width: 44px;
+  height: 20px;
+  width: 20px;
+}
+
+.container-regular-customers {
+}
+
+.title-regular-customers {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 59px;
+  margin-bottom: 44px;
+}
+
+.box-regular-customer {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 151px;
+}
+
+.logos-regular-customer {
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.item-regular-customer {
+  padding: 14px 32px;
 }
 
 /* page Briefcase*/
