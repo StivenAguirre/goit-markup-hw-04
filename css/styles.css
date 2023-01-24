@@ -106,7 +106,7 @@ body {
 .set-header {
   display: flex;
   padding: 30px 0px;
-  margin-right: 344px;
+  margin-right: 305px;
 }
 
 .header-text {
@@ -150,6 +150,17 @@ body {
 .a-header-text:focus {
   color: var(--color-pseudoclase);
   text-decoration: underline;
+}
+
+.email {
+  color: #2196f3;
+}
+
+.icons-header {
+  margin-right: 10px;
+  height: 12px;
+  width: 16px;
+  margin-top: 6px;
 }
 
 /* Main Section Heroes */
@@ -217,17 +228,13 @@ body {
   margin-right: 15px;
 }
 
-#icon-antena-1 {
-  width: 70px;
-  height: 65.32px;
+.icons-indicators {
+  padding: 25px 100px;
 }
 
 .card-set-indicators {
   display: flex;
   gap: 30px;
-}
-
-.item-indicators {
 }
 
 .indicators-title {
@@ -371,7 +378,6 @@ body {
 }
 
 .instagram-2 {
-  background-color: #2196f3;
   height: 20px;
   width: 20px;
 }
@@ -389,9 +395,6 @@ body {
 .linkedin {
   height: 20px;
   width: 20px;
-}
-
-.container-regular-customers {
 }
 
 .title-regular-customers {
@@ -414,10 +417,9 @@ body {
   box-sizing: border-box;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-}
-
-.item-regular-customer {
   padding: 14px 32px;
+  width: 170px;
+  height: 81px;
 }
 
 /* page Briefcase*/
@@ -546,7 +548,7 @@ footer {
 }
 
 .set-addrees-footer {
-  display: block;
+  display: inline-block;
   margin: auto;
 }
 
@@ -571,4 +573,20 @@ footer {
   letter-spacing: 0.02em;
   margin-bottom: 47px;
   padding-bottom: 9px;
+}
+
+.container-footer-icons {
+  margin: auto;
+}
+
+.title-meet {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.set-footer-icons {
+  display: flex;
 }
