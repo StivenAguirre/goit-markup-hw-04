@@ -282,6 +282,7 @@ body {
 .background {
   width: 373px;
   height: 323px;
+  position: relative;
 }
 
 .desktop-applications {
@@ -300,6 +301,8 @@ body {
   width: 370px;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
+  position: absolute;
+  bottom: 0;
 }
 
 .text-dedicate {
@@ -368,8 +371,19 @@ body {
   display: flex;
   margin-top: 16px;
   margin-bottom: 30px;
+  align-items: center;
   justify-content: center;
   gap: 35px;
+}
+
+.circle-our-team-icons {
+  height: 40px;
+  width: 40px;
+  background-color: var(--color-pseudoclase);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .instagram-1 {
@@ -535,7 +549,6 @@ footer {
 }
 
 .address-footer {
-  display: block;
 }
 
 .p-footer {
@@ -576,7 +589,7 @@ footer {
 }
 
 .container-footer-icons {
-  margin: auto;
+  display: flex;
 }
 
 .title-meet {
