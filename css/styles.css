@@ -12,6 +12,7 @@ html {
   --color-link: #757575;
   --item-products-border: #eeeeee;
   --background-color-icons-footer: rgba(255, 255, 255, 0.1);
+  --color-icons: rgba(117, 117, 117, 1);
 }
 
 *,
@@ -62,11 +63,6 @@ body {
 }
 
 /* header */
-
-.icons-header:hover,
-.icons-header:focus {
-  cursor: pointer;
-}
 
 .container {
   width: 1200px;
@@ -120,7 +116,6 @@ body {
 .header-text:hover,
 .header-text:focus {
   color: var(--color-pseudoclase);
-  text-decoration: underline;
 }
 
 .set-link-header {
@@ -157,15 +152,6 @@ body {
 .a-header-text:hover,
 .a-header-text:focus {
   color: var(--color-pseudoclase);
-  text-decoration: underline;
-}
-
-.email {
-  color: #2196f3;
-}
-
-.emailportafolio {
-  color: none;
 }
 
 .icons-header {
@@ -173,10 +159,14 @@ body {
   height: 12px;
   width: 16px;
   margin-top: 6px;
+  fill: var(--color-icons);
+}
+
+.icons-header:hover {
+  fill: #2196f3;
 }
 
 /* Main Section Heroes */
-
 .container-heroes {
   background-image: url(/images/Imagen.jpg);
   padding-top: 200px;
@@ -247,6 +237,12 @@ body {
 
 .icons-indicators {
   padding: 25px 100px;
+  fill: var(--color-icons);
+  cursor: pointer;
+}
+
+.icons-indicators:hover {
+  fill: #2196f3;
 }
 
 .card-set-indicators {
@@ -390,52 +386,30 @@ body {
   margin-bottom: 30px;
   align-items: center;
   justify-content: center;
-  gap: 35px;
+  gap: 15px;
 }
 
 .circle-our-team-icons {
   height: 40px;
   width: 40px;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-our-team-icons:hover {
   background-color: var(--color-pseudoclase);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.circle-our-team-white {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.instagram-1 {
+.social-media {
   height: 20px;
   width: 20px;
+  fill: var(--color-icons);
 }
 
-.instagram-2 {
-  height: 20px;
-  width: 20px;
-}
-
-.twitter {
-  height: 20px;
-  width: 20px;
-}
-
-.facebook {
-  height: 20px;
-  width: 20px;
-}
-
-.linkedin {
-  height: 20px;
-  width: 20px;
+.social-media:hover {
+  fill: var(--background-color-header);
 }
 
 .title-regular-customers {
@@ -453,17 +427,24 @@ body {
   display: flex;
 }
 
-.box-regular-customer {
+.box-general-regular-customer {
   margin-bottom: 151px;
+  position: relative;
 }
 
 .logos-regular-customer {
   box-sizing: border-box;
+  width: 170px;
+  height: 81px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   padding: 14px 32px;
-  width: 170px;
-  height: 81px;
+  fill: var(--color-icons);
+  cursor: pointer;
+}
+
+.logos-regular-customer:hover {
+  fill: var(--color-pseudoclase);
 }
 
 /* page Briefcase*/
@@ -595,9 +576,6 @@ footer {
   margin-top: 60px;
 }
 
-.address-footer {
-}
-
 .p-footer {
   font-size: 14px;
   font-weight: 400;
@@ -664,4 +642,15 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+
+.circle-footer-icons:hover {
+  background-color: var(--color-pseudoclase);
+}
+
+.social-media-footer {
+  height: 20px;
+  width: 20px;
+  fill: var(--background-color-header);
 }
