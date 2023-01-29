@@ -150,12 +150,18 @@ body {
 }
 
 .icons-header {
-  margin-right: 10px;
   height: 12px;
   width: 16px;
-  margin-top: 6px;
   fill: var(--color-icons);
   cursor: pointer;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.telefonio {
+  height: 16px;
+  width: 10px;
+  margin-top: 4px;
 }
 
 .item-header:hover .a-header-text {
