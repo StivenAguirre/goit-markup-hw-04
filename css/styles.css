@@ -149,21 +149,21 @@ body {
   text-align: right;
 }
 
-.a-header-text:hover,
-.a-header-text:focus {
-  color: var(--color-pseudoclase);
-}
-
 .icons-header {
   margin-right: 10px;
   height: 12px;
   width: 16px;
   margin-top: 6px;
   fill: var(--color-icons);
+  cursor: pointer;
 }
 
-.icons-header:hover {
-  fill: #2196f3;
+.item-header:hover .a-header-text {
+  color: var(--color-pseudoclase);
+}
+
+.item-header:hover .icons-header {
+  fill: var(--color-pseudoclase);
 }
 
 /* Main Section Heroes */
@@ -198,7 +198,7 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  border: none;
   margin-top: 30px;
 }
 
@@ -220,9 +220,8 @@ body {
   padding-bottom: 94px;
 }
 
-.set-indicators-icons {
-  display: flex;
-  gap: 12px;
+.item-indicadors {
+  flex-basis: calc((100%-90px) / 4);
 }
 
 .box-indicators {
@@ -232,7 +231,6 @@ body {
   border-radius: 4px;
   margin-bottom: 30px;
   display: inline-flex;
-  margin-right: 15px;
 }
 
 .icons-indicators {
@@ -247,7 +245,7 @@ body {
 
 .card-set-indicators {
   display: flex;
-  gap: 37px;
+  gap: 30px;
 }
 
 .indicators-title {
@@ -307,7 +305,7 @@ body {
 }
 
 .design-solutions {
-  background-image: url(/images/computablet1.jpg);
+  background-image: url(/images/tabletpaletacolores.jpg);
 }
 
 .box-dedicate-bottom {
@@ -382,11 +380,18 @@ body {
 
 .icons-our-team {
   display: flex;
-  margin-top: 16px;
-  margin-bottom: 30px;
+  padding-top: 16px;
+  padding-bottom: 30px;
   align-items: center;
   justify-content: center;
   gap: 15px;
+}
+
+.hover-conjunt-team:hover .circle-our-team-icons {
+  background-color: var(--color-pseudoclase);
+}
+.hover-conjunt-team:hover .social-media {
+  fill: var(--background-color-header);
 }
 
 .circle-our-team-icons {
@@ -412,6 +417,10 @@ body {
   fill: var(--background-color-header);
 }
 
+.container-regular-customers {
+  margin-bottom: 151px;
+}
+
 .title-regular-customers {
   font-size: 36px;
   font-weight: 700;
@@ -427,23 +436,21 @@ body {
   display: flex;
 }
 
-.box-general-regular-customer {
-  margin-bottom: 151px;
-  position: relative;
+.box-regular-customer {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .logos-regular-customer {
   box-sizing: border-box;
   width: 170px;
   height: 81px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
   padding: 14px 32px;
   fill: var(--color-icons);
   cursor: pointer;
 }
 
-.logos-regular-customer:hover {
+.box-regular-customer:hover .logos-regular-customer {
   fill: var(--color-pseudoclase);
 }
 
@@ -516,7 +523,6 @@ body {
   background-color: var(--background-color-header);
   border-radius: 4px;
   border: 1px solid var(--item-products-border);
-  margin-bottom: 30px;
 }
 
 .item-products:hover {
