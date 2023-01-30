@@ -174,7 +174,7 @@ body {
 
 /* Main Section Heroes */
 .container-heroes {
-  background-image: url(/images/Imagen.jpg);
+  background-image: url(/./images/Imagen.jpg);
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -300,18 +300,6 @@ body {
   width: 373px;
   height: 323px;
   position: relative;
-}
-
-.desktop-applications {
-  background-image: url(/images/computablet1.jpg);
-}
-
-.mobile-apps {
-  background-image: url(/images/compucelular2.jpg);
-}
-
-.design-solutions {
-  background-image: url(/images/tabletpaletacolores.jpg);
 }
 
 .box-dedicate-bottom {
@@ -443,12 +431,12 @@ body {
 }
 
 .box-regular-customer {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
 }
 
 .logos-regular-customer {
   box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
   width: 170px;
   height: 81px;
   padding: 14px 32px;
@@ -458,6 +446,7 @@ body {
 
 .box-regular-customer:hover .logos-regular-customer {
   fill: var(--color-pseudoclase);
+  border-color: var(--color-pseudoclase);
 }
 
 /* page Briefcase*/
