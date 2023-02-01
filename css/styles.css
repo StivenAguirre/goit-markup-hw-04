@@ -407,7 +407,7 @@ body {
 }
 
 .container-regular-customers {
-  margin-bottom: 151px;
+  padding-bottom: 151px;
 }
 
 .title-regular-customers {
@@ -417,15 +417,12 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   padding-top: 59px;
-  padding-bottom: 44px;
+  margin-bottom: 44px;
 }
 
 .set-regular-customer {
   gap: 30px;
   display: flex;
-}
-
-.box-regular-customer {
 }
 
 .logos-regular-customer {
